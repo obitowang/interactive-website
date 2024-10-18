@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'textfont';
+    src: url('../textfont.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1e788;
+    /* 設定為淺黃色背景 */
+    text-align: center;
+    /* 確保內容水平居中 */
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* 為版權聲明定位 */
+    background-color: #6cbef5;
+    /* 青藍色背景 */
+    padding: 10px 0;
+    /* 上下padding為20px，左右為0 */
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    display: block;
+    /* 確保img標籤不會有額外空間 */
+    margin-bottom: -5px;
+    /* 通過負值margin來消除空隙 */
+}
+
+.logo {
+    width: 120px;
+    /* 根據需要調整logo大小 */
+    height: auto;
+    margin-right: 2px;
+    /* 與標題之間的距離 */
+}
+
+.title-container h1 {
+
+    font-family: 'textfont', sans-serif;
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: 30px;
+    /* 去除h1預設的邊距 */
+}
+
+.copyright {
+    font-family: 'textfont', sans-serif;
+    font-size: 20px;
+    /* 小字體大小 */
+    position: absolute;
+    /* 絕對定位 */
+    right: 10px;
+    /* 靠右  */
+    bottom: 10px;
+    /* 靠底部 */
+    color: rgb(0, 0, 0);
+    /* 字體顏色 */
+}
+
+.buttonforward {
+    font-family: 'textfont', sans-serif;
+    font-size: 20px;
+    /* 小字體大小 */
+    position: absolute;
+    /* 絕對定位 */
+    right: 30px;
+    /* 靠右  */
+    bottom: 50px;
+    /* 靠底部 */
+    color: rgb(0, 0, 0);
+    /* 字體顏色 */
+}
+.card_upper h3{
+  
+    background-color: rgb(130, 235, 168);
+    padding: 10px;
+    font-size: 40px; 
+}
+
+
+
+.login_bar{
+    
+    font-family: 'textfont', sans-serif;
+    padding-bottom: 50px;
+}
+
+
+img{
+    max-width: 100%;
+}
+#fist_section .row{
+    margin-right: 0px;
+    
+}
+.support_button .btn-lg{
+    width: 40%;
+}
+#sad_dog_pic{
+    
+    position: absolute;
+    width: 400px;
+    
+}
+#fist_section{
+    font-family: 'textfont', sans-serif;
+}
+@media (max-width:900px) {  
+
+    .buttonforward {
+        font-family: 'textfont', sans-serif;
+        font-size: 10px;
+        z-index: 10;
+        
+        /* 小字體大小 */
+        position: absolute;
+        /* 絕對定位 */
+        right: 200px;
+        /* 靠右  */
+        top: 95px;
+        /* 靠底部 */
+        color: rgb(0, 0, 0);
+        /* 字體顏色 */
+    }
+
+    
+    .banner {
+        width: 100%;
+        height: 150px;
+        display: block;
+        /* 確保img標籤不會有額外空間 */
+        margin-bottom: -5px;
+        /* 通過負值margin來消除空隙 */
+    }
+    
+    .title-container h1 {
+
+        font-family: 'textfont', sans-serif;
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: 10px;
+        /* 去除h1預設的邊距 */
+    }
+    .logo {
+        width: 80px;
+        /* 根據需要調整logo大小 */
+        height: auto;
+        margin-right: 2px;
+        /* 與標題之間的距離 */
+    }
+    .copyright {
+        font-family: 'textfont', sans-serif;
+        font-size: 13px;
+        /* 小字體大小 */
+        position: absolute;
+        /* 絕對定位 */
+        right: 10px;
+        /* 靠右  */
+        bottom: 10px;
+        /* 靠底部 */
+        color: rgb(0, 0, 0);
+        /* 字體顏色 */
+    }
+
+   
+   
+}
+
+
+
+
+
+
+
+
+
+

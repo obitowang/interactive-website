@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'textfont';
+    src: url('../textfont.ttf') format('truetype');
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #f1e788;
+    /* 設定為淺黃色背景 */
+    text-align: center;
+    /* 確保內容水平居中 */
+}
+
+.header {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* 為版權聲明定位 */
+    background-color: #6cbef5;
+    /* 青藍色背景 */
+    padding: 10px 0;
+    /* 上下padding為20px，左右為0 */
+}
+#greeting_bar,#info_bar{
+    font-family: 'textfont', sans-serif;
+}
+
+.card-body,.card_upper{
+    font-family: 'textfont', sans-serif;
+}
+.banner {
+    width: 100%;
+    height: 250px;
+    display: block;
+    /* 確保img標籤不會有額外空間 */
+    margin-bottom: -5px;
+    /* 通過負值margin來消除空隙 */
+}
+
+.logo {
+    width: 120px;
+    /* 根據需要調整logo大小 */
+    height: auto;
+    margin-right: 2px;
+    /* 與標題之間的距離 */
+}
+
+.title-container h1 {
+
+    font-family: 'textfont', sans-serif;
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: 30px;
+    /* 去除h1預設的邊距 */
+}
+
+.copyright {
+    font-family: 'textfont', sans-serif;
+    font-size: 20px;
+    /* 小字體大小 */
+    position: absolute;
+    /* 絕對定位 */
+    right: 10px;
+    /* 靠右  */
+    bottom: 10px;
+    /* 靠底部 */
+    color: rgb(0, 0, 0);
+    /* 字體顏色 */
+}
+.navbar-brand{
+    position: relative;
+    left: 50px;
+    border: 2px solid rgb(137, 14, 224); 
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+img{
+    max-width: 100%;
+}
+.shop_title{
+    font-family: 'textfont', sans-serif;
+    font-size: 50px;
+    background-color: rgba(143, 234, 234, 0.651);
+    letter-spacing: 20px;
+    position: relative;
+  
+}
+.buttonforward {
+    font-family: 'textfont', sans-serif;
+    font-size: 20px;
+    /* 小字體大小 */
+    position: absolute;
+    /* 絕對定位 */
+    right: 30px;
+    /* 靠右  */
+    bottom: 50px;
+    /* 靠底部 */
+    color: rgb(0, 0, 0);
+    /* 字體顏色 */
+}
+
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1vh));
+    gap: 50px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 25px;
+    background: #fff;
+    text-align: center;
+    padding:15px 0px;
+    width: 320px;
+}
+
+
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+.container{
+    font-family: 'textfont', sans-serif;
+
+    position: relative; 
+  
+}
+.diamond_1{
+    height: 80px;
+    position: relative; 
+    left: 300px; 
+    bottom: 75px;
+}
+.diamond_2{
+    height: 80px;
+    position: relative; 
+    right: 300px; 
+    bottom: 75px;
+}
+#cut_line_1{
+    position: relative; 
+    bottom: 130px; 
+    right: 160px;
+    height: 150px; 
+    width: 50%
+}
+#cut_line_2{
+    position: relative; 
+    bottom: 120px;  
+    right: 150px; 
+    height: 150px;  
+    width: 50%
+}
+
+@media (max-width:900px) {  
+    .buttonforward {
+        z-index: 100;
+        /* 絕對定位 */
+        right: 30px;
+        /* 靠右  */
+        top: 430px;
+        /* 靠底部 */
+        color: rgb(0, 0, 0);
+        /* 字體顏色 */
+    }
+    #cut_line_1{
+        position: relative; 
+        bottom: 60px; 
+        right: 20px;
+        height: 150px; 
+        width: 2000px
+    }
+    #cut_line_2{
+        position: relative; 
+        bottom: 100px;  
+        right: 30px; 
+        height: 150px;  
+        width: 2000px
+    }
+    .container{
+        font-family: 'textfont', sans-serif;
+    
+        position: relative; 
+        padding-top: 50px;
+    }
+    
+    .shop_title{
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .diamond_1{
+        height: 50px;
+        position: relative; 
+        left: 180px; 
+        bottom: 45px;
+    }
+    .diamond_2{
+        height: 50px;
+        position: relative; 
+        right: 180px; 
+        bottom: 45px;
+    }
+    #greeting_bar , #info_bar{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #logout_buton , #shop_forward_buton,#intro_button{
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    
+    .banner {
+        width: 100%;
+        height: 150px;
+        display: block;
+        /* 確保img標籤不會有額外空間 */
+        margin-bottom: -5px;
+        /* 通過負值margin來消除空隙 */
+    }
+    
+    .title-container h1 {
+
+        font-family: 'textfont', sans-serif;
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: 10px;
+        /* 去除h1預設的邊距 */
+    }
+    .logo {
+        width: 80px;
+        /* 根據需要調整logo大小 */
+        height: auto;
+        margin-right: 2px;
+        /* 與標題之間的距離 */
+    }
+    .copyright {
+        font-family: 'textfont', sans-serif;
+        font-size: 13px;
+        /* 小字體大小 */
+        position: absolute;
+        /* 絕對定位 */
+        right: 10px;
+        /* 靠右  */
+        bottom: 10px;
+        /* 靠底部 */
+        color: rgb(0, 0, 0);
+        /* 字體顏色 */
+    }
+
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

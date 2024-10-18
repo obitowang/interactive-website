@@ -1,0 +1,9 @@
+{
+    "users": [
+      {"username": "wang", "password": "1","level":"6","dgd":"100000","dhd":"200"},
+      {"username": "user2", "password": "pass2","level":"100","dgd":"100","dhd":"200"},
+      {"username": "user3", "password": "pass3","level":"100","dgd":"100","dhd":"200"},
+      {"username": "user4", "password": "pass4","level":"100","dgd":"100","dhd":"200"},
+      {"username": "user5", "password": "pass5","level":"100","dgd":"100","dhd":"200"}
+    ]
+  }
